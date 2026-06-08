@@ -1,0 +1,50 @@
+#navbar {
+  background: rgb(73, 151, 177);
+  color: white;
+  text-align: center;
+  padding-top: 0.5rem;
+}
+
+p {
+    justify-content: center;
+    margin: 0;
+}
+
+#navbar p {
+  font-size: 1.25em;
+  text-transform: uppercase;
+}
+
+#navbar nav {
+  display: grid;
+}
+
+#navbar ul {
+    list-style-type: none;
+}
+
+#navbar a {
+  color: white;
+  padding: 0.25rem;
+  text-decoration: none;
+}
+
+#navbar a:hover {
+  background: rgb(101, 166, 187);
+}
+
+#navbar a.active {
+  text-decoration: underline;
+}
+
+@media (width >= 600px) {
+  #navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.25rem 0.5rem;
+  }
+  #navbar nav {
+    display: flex;
+  }
+}
