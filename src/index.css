@@ -1,0 +1,31 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar a{
+    text-decoration: none;
+    color: black;
+}
+
+#navbar ul {
+    display: flex;
+    list-style-type: none;
+    gap: 1ch;
+}
+
+.flexbox {
+    display: flex;
+}
+
+@media  (min-width:992px){
+    h1 {
+        font-size: 72px;
+    }
+
+    .navbar{
+        font-size: 50px;
+    }
+    
+}
